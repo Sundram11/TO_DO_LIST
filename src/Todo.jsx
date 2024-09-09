@@ -50,8 +50,8 @@ function Todo(){
   return(
     <div >
       <div className="w-full md:flex justify-between items-center mb-4 py-2 bg-slate-700">
-          <h1 className="my-4 text-5xl md:text-6xl font-extrabold font-sans text-yellow-500 ml-6">TO-DO-LIST</h1>
-          <div class="ml-6 md:inline-block font-extrabold text-yellow-500 text-4xl p-2 mr-6">Date: {currentDate}</div>
+          <h1 className="my-2 text-4xl md:text-5xl font-extrabold font-sans text-yellow-500 ml-6">TO-DO-LIST</h1>
+          <div class="ml-4 md:inline-block font-extrabold text-yellow-500 text-3xl p-2 mr-6">Date: {currentDate}</div>
       </div>
         
        
