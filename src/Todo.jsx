@@ -54,10 +54,10 @@ function Todo(){
           <div class="ml-6 md:inline-block font-extrabold text-yellow-500 text-4xl p-2 mr-6">Date: {currentDate}</div>
       </div>
         
-      <div className="px-10 m-0">
+       
 
         <div className="flex px-2 md:flex justify-around my-10 py-4">
-          <input className="m-2 flex text-xl md:flex-1 border-2 border-white text-md p-2 rounded-md text-black font-sans font-bold mx-2" type="text" value={NewTask} placeholder="Enter tasks..." onChange={handelInputChanges}/>
+          <input className="m-2 flex-1 md:flex-1 border-2 border-white text-md p-2 rounded-md text-black font-sans font-bold mx-2" type="text" value={NewTask} placeholder="Enter tasks..." onChange={handelInputChanges}/>
           <button className="my-2 mr-2  px-4 md:px-12 py-3 bg-green-500 text-3xl font-bold text-white rounded-md"  onClick={()=>AddTask(NewTask)}>Add</button>
         </div>
           
@@ -73,13 +73,10 @@ function Todo(){
                           </div>
                            
                         </li>
-                     )}
-        </ol>
-      </div>
-      
-     
-      
-    </div>
+        )}
+      </ol>
+ 
+  </div>
   )
 }
 
