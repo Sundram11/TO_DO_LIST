@@ -8,9 +8,9 @@ function Todo(){
     let day = date.getDate();
     let month = date.getMonth();
     let year = date.getFullYear();
-    let currentDate = `${day}-${month}-${year}`;
+    let currentDate = `${day}/${month}/${year}`;
 
-    const [tasks, setTask] = useState(["wake up","brush","bath"]);
+    const [tasks, setTask] = useState([]);
     const [NewTask,setNewTask] = useState("");
 
     function handelInputChanges(event){
